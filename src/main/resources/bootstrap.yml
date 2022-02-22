@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Jose:root@cluster0.y91u5.mongodb.net/test
+  application:
+    name: profiles-service
+  cloud:
+    config:
+      #enabled: true
+      uri: http://localhost:8081
